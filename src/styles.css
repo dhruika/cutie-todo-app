@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive;
+    background: #fff0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cutie-container {
+    background: #ffe4e1;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.6);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.input-group input {
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #ffb6c1;
+    margin-right: 0.5rem;
+    width: 70%;
+}
+
+.input-group button {
+    padding: 0.5rem 1rem;
+    background: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.todo-list li {
+    background: white;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(255, 182, 193, 0.4);
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.2);
+}
+
+.done label {
+    text-decoration: line-through;
+    color: #999;
+    opacity: 0.6;
+}
+
+.todo-list li {
+    transition: all 0.3s ease;
+}
+
+.todo-list li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 8px rgba(255, 182, 193, 0.6);
+}
