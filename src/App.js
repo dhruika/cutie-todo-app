@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="cutie-container">
-      <h1>🌸 Cutie Todo App 🌸</h1>
+      <h1>🌸 chotto Todo App 🌸</h1>
       <h3>Hey {name}! Let’s slay today’s tasks 💪✨</h3>
 
       <div className="input-group">
